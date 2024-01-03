@@ -13,8 +13,12 @@ body {
   --bkg-color: #fff;
   --btn-bg-color: rgb(11, 88, 160);
   --btn-txt-color: white;
-  --company-color:#9B5C9C;
+  --company-color:#8b1c8d;
   --text-color: #222;
+  --copyright-color:#121212;
+  --logo-color:#4a4747;
+  --span-logo-color:#4a4747;
+  --footer-bkg-color: #0000000d;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -26,13 +30,28 @@ body {
   --accordion-color: rgb(30, 4, 106);
 } */
 
+/* body.dark-theme {
+  --accordion-color: rgb(144, 255, 219); 
+  --bkg-color: #222; 
+  --btn-bg-color: rgb(144, 167, 255); 
+  --btn-txt-color: black; 
+  --text-color: #ddd; 
+} */
+
+
 body.dark-theme {
-  --accordion-color: rgb(144, 255, 219); /* Un tono más claro que el anterior verde oscuro */
-  --bkg-color: #222; /* Antes era claro (#fff), ahora es oscuro */
-  --btn-bg-color: rgb(144, 167, 255); /* Un tono más claro que el anterior azul oscuro */
-  --btn-txt-color: black; /* Antes era claro (white), ahora es oscuro */
-  --text-color: #ddd; /* Antes era oscuro (#222), ahora es claro */
+  --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
+  --bkg-color: #121212; /* Ya cumple con el contraste */
+  --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
+  --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
+  --company-color:#c790c8;
+  --copyright-color:#ece7e7;
+  --logo-color:#d2c6d8;
+  --span-logo-color:#d2c6d8;
+  --footer-bkg-color: #3e3e3d;
+  --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
+
 
 
 .navbar-text{
@@ -52,8 +71,19 @@ a:hover {
   text-decoration: underline; 
 }
 
+.logo{
+  color: var(--logo-color);
+}
+.span-logo{
+  color: var(--span-logo-color);
+}
+
 .logo:hover{
   color: var(--company-color);
+}
+
+.copy{
+  background-color: var(--footer-bkg-color);
 }
 
 h1,
@@ -71,17 +101,9 @@ button {
   padding: 10px;
 }
 
-.accordion-button{
-    background-color: var(--accordion-color);
-    color: rgb(234, 234, 11);
-}
 
 
-#accordionExample{
-    margin: 0 auto;
-    text-align: center;
-    width: 70%;
-}
+
 
 
 /* html, body { height: 100%; }
