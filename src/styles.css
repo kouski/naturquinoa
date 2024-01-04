@@ -11,6 +11,7 @@
 body {
   --accordion-color: rgb(11, 160, 36);
   --bkg-color: #fff;
+  --bkg-color-nav: #fff;
   --btn-bg-color: rgb(11, 88, 160);
   --btn-txt-color: white;
   --company-color:#8b1c8d;
@@ -42,6 +43,7 @@ body {
 body.dark-theme {
   --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
   --bkg-color: #121212; /* Ya cumple con el contraste */
+  --bkg-color-nav: #121212; /* Ya cumple con el contraste */
   --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
   --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
   --company-color:#c790c8;
@@ -52,7 +54,9 @@ body.dark-theme {
   --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
-
+nav{
+  background-color: var(--bkg-color-nav);
+}
 
 .navbar-text{
   color: var(--company-color);

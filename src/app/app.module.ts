@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatChipsModule} from '@angular/material/chips';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { FormularioComponent } from './formulario/formulario.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -14,7 +16,8 @@ import { NavbarComponent } from './navbar/navbar.component';
   declarations: [	
     AppComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    FormularioComponent
       
       
    ],
@@ -24,6 +27,7 @@ import { NavbarComponent } from './navbar/navbar.component';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatChipsModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
