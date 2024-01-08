@@ -20,6 +20,7 @@ body {
   --logo-color:#4a4747;
   --span-logo-color:#4a4747;
   --footer-bkg-color: #0000000d;
+  --valid-form:#f40404;
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
@@ -51,7 +52,8 @@ body.dark-theme {
   --logo-color:#d2c6d8;
   --span-logo-color:#d2c6d8;
   --footer-bkg-color: #3e3e3d;
-  --text-color: #f0f0f0; /* Cambiado a un gris más claro para mejorar el contraste */
+  --text-color: #f0f0f0;
+  --valid-form:#c790c8; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
 nav{

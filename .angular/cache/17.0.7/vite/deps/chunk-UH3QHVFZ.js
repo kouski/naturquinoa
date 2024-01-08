@@ -1,7 +1,7 @@
 import {
   DOCUMENT,
   isPlatformBrowser
-} from "./chunk-RCYU2HFW.js";
+} from "./chunk-2Z3F47PJ.js";
 import {
   ANIMATION_MODULE_TYPE,
   APP_ID,
@@ -78,23 +78,6 @@ import {
   ɵɵviewQuery
 } from "./chunk-TMF34ROS.js";
 
-// node_modules/@angular/cdk/fesm2022/coercion.mjs
-function coerceBooleanProperty(value) {
-  return value != null && `${value}` !== "false";
-}
-function coerceNumberProperty(value, fallbackValue = 0) {
-  return _isNumberValue(value) ? Number(value) : fallbackValue;
-}
-function _isNumberValue(value) {
-  return !isNaN(parseFloat(value)) && !isNaN(Number(value));
-}
-function coerceArray(value) {
-  return Array.isArray(value) ? value : [value];
-}
-function coerceElement(elementOrRef) {
-  return elementOrRef instanceof ElementRef ? elementOrRef.nativeElement : elementOrRef;
-}
-
 // node_modules/@angular/cdk/fesm2022/keycodes.mjs
 var BACKSPACE = 8;
 var TAB = 9;
@@ -123,6 +106,23 @@ function hasModifierKey(event, ...modifiers) {
     return modifiers.some((modifier) => event[modifier]);
   }
   return event.altKey || event.shiftKey || event.ctrlKey || event.metaKey;
+}
+
+// node_modules/@angular/cdk/fesm2022/coercion.mjs
+function coerceBooleanProperty(value) {
+  return value != null && `${value}` !== "false";
+}
+function coerceNumberProperty(value, fallbackValue = 0) {
+  return _isNumberValue(value) ? Number(value) : fallbackValue;
+}
+function _isNumberValue(value) {
+  return !isNaN(parseFloat(value)) && !isNaN(Number(value));
+}
+function coerceArray(value) {
+  return Array.isArray(value) ? value : [value];
+}
+function coerceElement(elementOrRef) {
+  return elementOrRef instanceof ElementRef ? elementOrRef.nativeElement : elementOrRef;
 }
 
 // node_modules/@angular/cdk/fesm2022/platform.mjs
@@ -4794,7 +4794,6 @@ var MatRippleLoader = _MatRippleLoader;
 })();
 
 export {
-  coerceBooleanProperty,
   Platform,
   BACKSPACE,
   TAB,
@@ -4802,6 +4801,7 @@ export {
   SPACE,
   DELETE,
   hasModifierKey,
+  coerceBooleanProperty,
   ObserversModule,
   FocusKeyManager,
   FocusMonitor,
@@ -4818,4 +4818,4 @@ export {
   MatRippleModule,
   MatRippleLoader
 };
-//# sourceMappingURL=chunk-PLOA4Z7H.js.map
+//# sourceMappingURL=chunk-UH3QHVFZ.js.map
