@@ -44,7 +44,7 @@ export class FormularioComponent  {
     )
     }
 
-    guardar(){
+    enviar(){
       console.log(this.forma);
       
       this.passNovalido();
