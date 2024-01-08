@@ -50,7 +50,7 @@ input:focus {
   
   
   /**
-  * ! style rules for form icons
+  *  iconos
   **/
   
 form div i {
@@ -79,7 +79,7 @@ form div i {
   }
   
   /**
-  * ! style rules for button 
+  * !boton
   **/
   
 button {
@@ -114,7 +114,7 @@ button:hover {
   }
   
   /**
-* ! style rules for content section
+* ! seccion content
 **/
 
 .content {
@@ -138,6 +138,8 @@ form {
   width: 45%;
   max-width: none;
 }
+
+
 
 .image {
   background-image: url("./foto_ebook_recetas.jpg");
