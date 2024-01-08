@@ -53,7 +53,7 @@ body.dark-theme {
   --span-logo-color:#d2c6d8;
   --footer-bkg-color: #3e3e3d;
   --text-color: #f0f0f0;
-  --valid-form:#c790c8; /* Cambiado a un gris más claro para mejorar el contraste */
+  --valid-form:#ea670f; /* Cambiado a un gris más claro para mejorar el contraste */
 }
 
 nav{
