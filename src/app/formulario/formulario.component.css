@@ -101,9 +101,8 @@ button:hover {
   }
 
   .small-formulario{
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--valid-form);
-    font-weight: bold;
   }
   
 

@@ -24,36 +24,20 @@ body {
   background: var(--bkg-color);
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-/* body.dark-theme {
-  --text-color: #eee;
-  --bkg-color: #252222;
-  --btn-txt-color: rgb(46, 43, 43);
-  --btn-bg-color: rgb(20, 211, 195);
-  --accordion-color: rgb(30, 4, 106);
-} */
-
-/* body.dark-theme {
-  --accordion-color: rgb(144, 255, 219); 
-  --bkg-color: #222; 
-  --btn-bg-color: rgb(144, 167, 255); 
-  --btn-txt-color: black; 
-  --text-color: #ddd; 
-} */
-
 
 body.dark-theme {
-  --accordion-color: rgb(118, 204, 169); /* Ya cumple con el contraste */
-  --bkg-color: #121212; /* Ya cumple con el contraste */
-  --bkg-color-nav: #121212; /* Ya cumple con el contraste */
-  --btn-bg-color: rgb(94, 114, 176); /* Ya cumple con el contraste */
-  --btn-txt-color: #fafafa; /* Cambiado a un gris más claro para mejorar el contraste */
+  --accordion-color: rgb(118, 204, 169); 
+  --bkg-color: #121212; 
+  --bkg-color-nav: #121212; 
+  --btn-bg-color: rgb(94, 114, 176); 
+  --btn-txt-color: #fafafa; 
   --company-color:#c790c8;
   --copyright-color:#ece7e7;
   --logo-color:#d2c6d8;
   --span-logo-color:#d2c6d8;
   --footer-bkg-color: #3e3e3d;
   --text-color: #f0f0f0;
-  --valid-form:#ea670f; /* Cambiado a un gris más claro para mejorar el contraste */
+  --valid-form:#f25653fe; 
 }
 
 nav{
