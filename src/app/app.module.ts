@@ -8,7 +8,8 @@ import {MatChipsModule} from '@angular/material/chips';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormularioComponent } from './formulario/formulario.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CalculadoraImcComponent } from './calculadora-imc/calculadora-imc.component';
 
 
 
@@ -17,7 +18,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     FooterComponent,
     NavbarComponent,
-    FormularioComponent
+    FormularioComponent,
+    CalculadoraImcComponent,
       
       
    ],
@@ -27,6 +29,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatChipsModule,
+    FormsModule,
     ReactiveFormsModule
     
   ],
