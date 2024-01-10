@@ -109,6 +109,10 @@ button:hover {
     color: var(--valid-form);
   }
   
+  #envio_formulario{
+    font-size: 1.1rem;
+    border-radius: 5px;
+  }
 
 
 .container {

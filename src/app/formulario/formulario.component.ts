@@ -8,6 +8,8 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormularioComponent  {
   forma!:FormGroup;
+  envioRealizado: boolean = false;
+  usuario:any;
   
   constructor(private fb:FormBuilder){
     this.crearFormulario();
@@ -54,7 +56,20 @@ export class FormularioComponent  {
           control.markAllAsTouched();
         })
       }
-      this.limpiar()
+
+      this.usuario = {
+        nombre: this.forma.value.nombre,
+        apellido: this.forma.value.apellido
+        // Puedes agregar más campos según sea necesario
+      };
+
+      this.limpiar();
+      this.envioRealizado = true;
+
+      setTimeout(() => {
+        this.envioRealizado = false;
+      }, 4000); 
+      
     }
 
     limpiar(){
