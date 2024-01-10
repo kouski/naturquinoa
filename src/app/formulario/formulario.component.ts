@@ -68,7 +68,7 @@ export class FormularioComponent  {
 
       setTimeout(() => {
         this.envioRealizado = false;
-      }, 4000); 
+      }, 5000); 
       
     }
 
