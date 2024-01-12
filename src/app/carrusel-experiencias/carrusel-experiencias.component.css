@@ -1,0 +1,13 @@
+#carruselDiv{
+    background-color: var(--company-color);
+    text-align: center;
+}
+
+#carruselTextos{
+    color: white;
+    padding: 5%;
+}
+
+#texto{
+    color: white;
+}
