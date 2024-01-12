@@ -4,12 +4,13 @@
 }
 
 .carruselTextos{
-    color: white;
+    color: var(--carrusel-text);
     padding: 5%;
 }
 
-#texto{
-    color: white;
+.texto{
+    font-size: 1rem;
+    text-align: center;
 }
 
 #testimonios{
