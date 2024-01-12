@@ -3,11 +3,15 @@
     text-align: center;
 }
 
-#carruselTextos{
+.carruselTextos{
     color: white;
     padding: 5%;
 }
 
 #texto{
     color: white;
+}
+
+#testimonios{
+    color: var(--text-color);
 }
