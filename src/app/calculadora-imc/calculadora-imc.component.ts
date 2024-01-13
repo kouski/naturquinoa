@@ -13,6 +13,7 @@ export class CalculadoraImcComponent {
   resultadoMasaCorporal: string = '';
   resultadoPorcentajeGrasa: string = '';
   resultadoTablaOms: string = '';
+  mostrarTabla: boolean = false;
 
   calcularMasaCorporal() {
     var masaCorporal = this.peso / (this.altura * this.altura);
@@ -20,6 +21,9 @@ export class CalculadoraImcComponent {
 
     var porcentajeGrasa = masaCorporal * 1.2 + 0.23 * this.edad - 10.8 * parseFloat(this.sexo) - 5.4;
     this.resultadoPorcentajeGrasa = "El porcentaje de grasa es: " + porcentajeGrasa.toFixed(2);
+
+
+    this.mostrarTabla = true;
 
     // Puedes actualizar la lógica para la tablaOms si es necesario
 
